@@ -1,0 +1,20 @@
+#header-nav {
+  background-color:#0117BF;
+  border-radius: 0;
+  border: 0;
+  box-sizing: 40px;
+  size: 35px 40px;
+}
+
+
+#searchbox{
+  border-radius: 0;
+  padding: 10px;
+  border: solid black;
+  size: 35px 40px;
+}
+body {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
