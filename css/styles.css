@@ -1,20 +1,192 @@
+.row{
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
 #header-nav {
   background-color:#0117BF;
   border-radius: 0;
   border: 0;
-  box-sizing: 40px;
-  size: 35px 40px;
+  height: 75px;
 }
 
 
 #searchbox{
   border-radius: 0;
-  padding: 10px;
+  padding: 10px 10px 10px 10px;
   border: solid black;
-  size: 35px 40px;
 }
 body {
   font-size: 16px;
-  color: #fff;
+  color: #cdd5db;
   font-family: 'Oxygen', sans-serif;
+}
+form {
+  align-content: center;
+  padding-left: 20px;
+}
+h1 {
+  color: #2a2a1e;
+  font-size: 15px;
+  padding-left: 10px;
+  background-color: #cdd5db;
+  padding: 10px 10px 10px 30px; 
+}
+h2 {
+  color: #2a2a1e;
+  font-weight: bold;
+  font-size: 15px;
+  padding-left: 30px;
+  background-color: #cdd5db;
+  padding: 10px 10px 10px 30px; 
+}
+.fieldbox {
+  position: relative;
+  clear: left;
+  padding:10px 10px 10px 10px;
+  right:-10px;
+  top:-20px;
+}
+.textstyle {
+  color:#000;
+  font-size: 20px;
+  padding-left: 10px;
+  position: relative;
+  clear:right;
+  box-sizing: border-box;
+  padding-right: 0px;
+  padding-bottom: 10px;
+}
+.ashtrick {
+  color:#8B0000;
+  font-size:15px;
+  position: relative;
+  clear: left;
+  float: right;
+  right: 150px;
+  padding-left: 0px;
+}
+#Select-Franchise {
+  color:#2a2a1e;
+  padding: 10px 40px 10px 40px;
+  font-size: 20px;
+}
+#Select-branch {
+  color:#2a2a1e;
+  padding: 10px 40px 10px 40px;
+  font-size: 20px;
+}
+
+#usernamebox {
+  color:#2a2a1e;
+  padding: 10px 40px 10px 40px;
+  font-size: 15px;
+}
+
+#passwordbox {
+  color:#2a2a1e;
+  padding: 10px 40px 10px 40px;
+  font-size: 15px;
+}
+#firstnamebox {
+  color:#2a2a1e;
+  padding: 10px 40px 10px 40px;
+  font-size: 15px;
+}
+#lastnamebox {
+  color:#2a2a1e;
+  padding: 10px 40px 10px 40px;
+  font-size: 15px;
+}
+#fathernamebox{
+  color:#2a2a1e;
+  padding: 10px 40px 10px 40px;
+  font-size: 15px;
+}
+#mobilenumberbox{
+  color:#2a2a1e;
+  padding: 10px 40px 10px 40px;
+  font-size: 15px;
 }

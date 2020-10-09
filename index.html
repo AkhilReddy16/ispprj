@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-  </head>
 </head>
+
 <body>
   <header id="backtotop">
     <nav id="header-nav" class="navbar navbar-default">
@@ -22,7 +22,70 @@
       </div>
     </nav>
   </header>
-  <input id="namebox" type="text" autocomplete="on" spellcheck="false" aria-live="polite" autofocus="" placeholder="Name">
-  <input id="initalbox" type="text" autocomplete="on" spellcheck="false" aria-live="polite" autofocus="" placeholder="Initals">
+  <h1>
+  	CAF Registration
+  </h1>
+  <h2>
+  	Basic Information
+  </h2>
+  <form>
+  	<fieldbox class="fieldbox, col-lg-2, col-md-3">
+  		<div class="textstyle">
+  			Select Franchise <p class = "ashtrick">*</p>
+  		</div>
+		<select name="Select Franchise" id="Select-Franchise">
+			<option value="select">Select Franchise</option>
+			<option value="f1">F1</option>
+			<option value="f2">F2</option>
+			<option value="f3">F3</option>
+		</select>
+  	</fieldbox>
+  	<fieldbox class="fieldbox, col-lg-2, col-md-3">
+  		<div class="textstyle">
+  			Branch <p class = "ashtrick">*</p>
+  		</div>
+  		<select name="Select Branch" id="Select-branch">
+			<option value="select">Select Branch</option>
+			<option value="b1">Vissannapet</option>
+			<option value="b2">Vijayawada</option>
+			<option value="b3">Vizag</option>
+		</select>
+  	</fieldbox>
+  	<fieldbox class="fieldbox, col-lg-2, col-md-3">
+  		<div class="textstyle">
+  			User Name <p class = "ashtrick">*</p>
+  		</div>
+  		<input id="usernamebox" type="text" autocomplete="on" required="on">
+  	</fieldbox>
+  	<fieldbox class="fieldbox, col-lg-2, col-md-3">
+  		<div class="textstyle">
+  			Password <p class = "ashtrick">*</p>
+  		</div>
+  		<input id="passwordbox" type="Password" autocomplete="on" required="on">
+  	</fieldbox>
+  	<fieldbox class="fieldbox, col-lg-2, col-md-3">
+  		<div class="textstyle">
+  			First Name <p class = "ashtrick">*</p>
+  		</div>
+  		<input id="firstnamebox" type="text" autocomplete="on" required="on">
+  	</fieldbox>
+  	<fieldbox class="fieldbox, col-lg-2, col-md-3">
+  		<div class="textstyle">
+  			Last Name <p class = "ashtrick">*</p>
+  		</div>
+  		<input id="lastnamebox" type="text" autocomplete="on" required="on">
+  		<fieldbox class="fieldbox, col-lg-2, col-md-3">
+  		<div class="textstyle">
+  			Father Name or Company Name <p class = "ashtrick">*</p>
+  		</div>
+  		<input id="fathernamebox" type="text" autocomplete="on" required="on">
+  	</fieldbox>
+  	<fieldbox class="fieldbox, col-lg-2, col-md-3">
+  		<div class="textstyle">
+  			Mobile Number <p class = "ashtrick">*</p>
+  		</div>
+  		<input id="mobilenumberbox" type="text" autocomplete="on" required="on">
+  	</fieldbox>
+  </form>
 </body>
 </html>
