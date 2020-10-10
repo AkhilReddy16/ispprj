@@ -4,6 +4,8 @@
   border-radius: 0;
   border: 0;
   height: 75px;
+  box-sizing: border-box;
+  padding-right: 0px;
 }
 
 
@@ -15,7 +17,7 @@
 body {
   font-size: 16px;
   color: #cdd5db;
-  font-family: 'Oxygen', sans-serif;
+  align-content: center;
 }
 form {
   align-content: center;
@@ -38,13 +40,24 @@ h2 {
 }
 .fieldbox {
   position: relative;
-  clear: left;
+  clear: left, right;
   padding:10px 10px 10px 10px;
-  right:-10px;
-  top:-20px;
+}
+#waste {
+  border-color: #fff;
 }
 .textstyle {
   color:#000;
+  font-size: 20px;
+  padding-left: 10px;
+  position: relative;
+  clear:right;
+  box-sizing: border-box;
+  padding-right: 0px;
+  padding-bottom: 10px;
+}
+.textstyle1 {
+  color:#fff;
   font-size: 20px;
   padding-left: 10px;
   position: relative;
@@ -59,43 +72,43 @@ t {
 }
 #Select-Franchise {
   color:#2a2a1e;
-  padding: 10px 40px 10px 40px;
+  padding: 10px 10px 10px 10px;
   font-size: 20px;
 }
 #Select-branch {
   color:#2a2a1e;
-  padding: 10px 40px 10px 40px;
+  padding: 10px 10px 10px 10px;
   font-size: 20px;
 }
 
 #usernamebox {
   color:#2a2a1e;
-  padding: 10px 40px 10px 40px;
+  padding: 10px 10px 10px 10px;
   font-size: 15px;
 }
 
 #passwordbox {
   color:#2a2a1e;
-  padding: 10px 40px 10px 40px;
+  padding: 10px 10px 10px 10px;
   font-size: 15px;
 }
 #firstnamebox {
   color:#2a2a1e;
-  padding: 10px 40px 10px 40px;
+  padding: 10px 10px 10px 10px;
   font-size: 15px;
 }
 #lastnamebox {
   color:#2a2a1e;
-  padding: 10px 40px 10px 40px;
+  padding: 10px 10px 10px 10px;
   font-size: 15px;
 }
 #fathernamebox{
   color:#2a2a1e;
-  padding: 10px 40px 10px 40px;
+  padding: 10px 10px 10px 10px;
   font-size: 15px;
 }
 #mobilenumberbox{
   color:#2a2a1e;
-  padding: 10px 40px 10px 40px;
+  padding: 10px 10px 10px 10px;
   font-size: 15px;
 }
